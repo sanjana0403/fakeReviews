@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 # TODO implement
-browser = webdriver.Chrome("/usr/bin/chromedriver") #################### change here
+browser = webdriver.Chrome("./chromedriver") #################### change here
 
 file = open("rest_list.txt","r")
 fout = open("user_url.txt",'w')
